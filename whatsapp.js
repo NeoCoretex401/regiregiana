@@ -22,7 +22,7 @@ function generateWhatsAppLink() {
     const messageNew = `Nama: ${name}\nEmail: ${email}\nSubjek: ${subject}\nPesan: ${message}`;
 
     // Nomor tujuan WhatsApp
-    const phoneNumber = '6285718796800';
+    const phoneNumber = '62881012340476';
 
     // Hasilkan URL WhatsApp
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(messageNew)}`;
